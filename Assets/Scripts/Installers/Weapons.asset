@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f722577bb305342b6bbfb7e6fdeea2, type: 3}
+  m_Name: Weapons
+  m_EditorClassIdentifier: 
+  BasicSword:
+    NormalAttackDamage:
+      Amount: 10
+      KnockbackCoef: 0.7
+    ChargedAttackDamage:
+      Amount: 30
+      KnockbackCoef: 1.4
+    Hitbox:
+      X: 0
+      Y: -0.1
+      W: 0.3
+      H: 1.15
+    Sprite: {fileID: 21300000, guid: 8c65346afda2d6b4b9fd2048e8e768e4, type: 3}
+  CrimsonDagger:
+    MeleeSettings:
+      NormalAttackDamage:
+        Amount: 7
+        KnockbackCoef: 0.1
+      ChargedAttackDamage:
+        Amount: 20
+        KnockbackCoef: 0.6
+      Hitbox:
+        X: 0
+        Y: 0
+        W: 0.3
+        H: 1
+      Sprite: {fileID: 21300000, guid: 942a9dd63d629cc4687ef6bb18d04486, type: 3}
+    ProjectileSettings:
+      Damage:
+        Amount: 5
+        KnockbackCoef: 0.1
+      IsPiercing: 1
+      PiercingHitCooldown: 10
+      Lifetime: 0
+      Sprite: {fileID: 21300000, guid: 942a9dd63d629cc4687ef6bb18d04486, type: 3}
+      Hitbox:
+        X: 0
+        Y: 0
+        W: 0.3
+        H: 1
